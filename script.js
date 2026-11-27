@@ -2,11 +2,11 @@ $("#knop").click(function(){
     var getal = $("#invoer").val();
     if ($.isNumeric(getal)) {
         if (getal % 2 == 0) {
-            $("#uitvoer").text("EVEN")
+            $("#uitvoer").text("EVEN");
         } else {
-            $("#uitvoer").text("ONEVEN")
+            $("#uitvoer").text("ONEVEN");
         }
     } else {
-        $("#uitvoer").getal("Geef een geheel getal in!")
+        $("#uitvoer").getal("Geef een geheel getal in!");
     } 
 })
