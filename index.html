@@ -1,28 +1,40 @@
+<!-- Dit is een herbruikbare startpagina: HTML beschrijft de elementen, CSS de opmaak, JavaScript de interactie. -->
 <!DOCTYPE html>
 <html>
+    <!-- De head bevat instellingen en externe verwijzingen, niet de zichtbare pagina-inhoud. -->
     <head>
         <title>Start webdesign project</title>
+        <!-- Voorkomt dat een telefoon de pagina behandelt als een brede desktopweergave. -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- UTF-8 ondersteunt accenten en andere speciale tekens. -->
         <meta charset="UTF-8">
+        <!-- W3.CSS: vooraf gemaakte klassen voor kleuren, knoppen, marges en opmaak. -->
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
+        <!-- Je eigen styles.css wordt daarna geladen en kan extra regels bevatten. -->
         <link rel="stylesheet" href="styles.css">
+        <!-- jQuery biedt kortere opdrachten voor DOM-selectie en gebeurtenissen via $. -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     </head>
 <body>
 
+    <!-- De header is een blauwe balk; de w3-classes komen uit W3.CSS. -->
     <header class="w3-bar w3-blue">
         <p class="w3-bar-item">Start project webdesign</p>
     </header>
 
+    <!-- w3-container geeft deze groep standaardruimte rond de inhoud. -->
     <div class="w3-container">
         <h2>Welcome</h2>
         <p>This page is styled with W3.CSS.</p>
+        <!-- Deze knop krijgt alleen stijl. Er is bewust nog geen click-handler in script.js. -->
         <button class="w3-button w3-black">Learn More</button>
     </div>
 
+    <!-- w3-bottom plaatst de footer onderaan de weergave; controleer de ruimte op kleine schermen. -->
     <footer class="w3-bottom w3-bar w3-blue">
         <p class="w3-bar-item w3-center">© 2026 by @KellyIgbokweKuti</p>
     </footer>
+    <!-- Het eigen JavaScript staat onderaan, zodat de HTML-elementen al bestaan. -->
     <script src="script.js"></script>
 </body>
 </html>
