@@ -7,6 +7,6 @@ $("#knop").click(function(){
             $("#uitvoer").text("ONEVEN");
         }
     } else {
-        $("#uitvoer").getal("Geef een geheel getal in!");
+        $("#uitvoer").text("Geef een geheel getal in!");
     } 
 })
